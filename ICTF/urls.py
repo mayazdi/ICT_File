@@ -19,5 +19,6 @@ import ictfile.views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', ictfile.views.default),
+    path('', ictfile.views.upload_file),
+    path('success/', ictfile.views.success),
 ]
